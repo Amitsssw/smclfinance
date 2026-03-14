@@ -35,7 +35,10 @@ const Footer = () => {
               >
                 <FaTwitter />
               </a>
-              <a
+              <a 
+              href="https://www.instagram.com/smclfinance/" 
+  target="_blank" 
+  rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="hover:text-pink-400 transition cursor-pointer"
               >

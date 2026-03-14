@@ -39,7 +39,7 @@ const NavbarComponent = () => {
             alt="SMCL Logo Symbol"
             className="h-[60px] sm:w-[70px] rounded-full sm:rounded-none object-contain select-none"
           />
-          <span className="text-white font-semibold text-2xl tracking-wide">
+          <span className="text-white font-italic  text-2xl tracking-wide">
             SMCL Finance
           </span>
         </Link>

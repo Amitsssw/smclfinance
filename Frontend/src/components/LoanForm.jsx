@@ -21,7 +21,7 @@ export default function LoanForm() {
     setFormData((prev) => ({ ...prev, [id]: value }));
   };
 
-  const baseURL = process.env.REACT_APP_API_BASE_URL;
+const baseURL = "http://localhost:5000"; 
 
 const handleSubmit = async (e) => {
   e.preventDefault();
@@ -29,7 +29,7 @@ const handleSubmit = async (e) => {
   setSubmitted(false);
 
   try {
-    await axios.post(baseURL + "/apply", formData);
+await axios.post(`${baseURL}/api/loan/apply`, formData);
     setSubmitted(true);
 
     setTimeout(() => {
