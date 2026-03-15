@@ -21,8 +21,7 @@ export default function LoanForm() {
     setFormData((prev) => ({ ...prev, [id]: value }));
   };
 
-const baseURL = "http://localhost:5000"; 
-
+const baseURL = "http://72.61.174.183:5000"; 
 const handleSubmit = async (e) => {
   e.preventDefault();
   setLoading(true);
