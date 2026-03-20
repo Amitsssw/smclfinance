@@ -26,7 +26,7 @@ const NavbarComponent = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
 
   return (
-    <nav className="bg-[#000024] sticky top-0 shadow-xl z-50">
+    <nav className="bg-[#000039] sticky top-0 shadow-xl z-50">
       <div className="flex items-center justify-between px-4 py-3">
         {/* Logo Section */}
         <Link
@@ -37,11 +37,9 @@ const NavbarComponent = () => {
           <img
             src={logoSymbol}
             alt="SMCL Logo Symbol"
-            className="h-[60px] sm:w-[70px] rounded-full sm:rounded-none object-contain select-none"
+            className="h-12 md:h-16 w-auto object-contain transition-all"
           />
-          <span className="text-white font-italic  text-2xl tracking-wide">
-            SMCL Finance
-          </span>
+          
         </Link>
 
         {/* Mobile Hamburger */}
